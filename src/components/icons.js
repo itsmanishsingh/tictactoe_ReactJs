@@ -12,14 +12,6 @@ const Icon = ({ name }) => {
     default:
       return <FaPen className="icons" />;
   }
-
-  // return (
-  //     <h1>
-  //         <FaTimes  className="icons" />
-  //         {/* <FaPen className= "icons"/>
-  //         <FaRegCircle className="icons" /> */}
-  //     </h1>
-  // )
 };
 
 export default Icon;
