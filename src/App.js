@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import Icon from "./components/icons";
 
-// This is toastify npm code
+// This is from toastify npm code
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -10,6 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Card, CardBody, Container, Button, Col, Row } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
+
 const itemArray = new Array(9).fill("empty");
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
     // Setting all the states back to the default state
     setisCross(false);
     setwinMessage("");
-    itemArray.fill("empty", 0, 9);
+    itemArray.fill("empty", 0, 9);            // fills items with empty form 0 to 9
   };
 
   const checkIsWinner = () => {
