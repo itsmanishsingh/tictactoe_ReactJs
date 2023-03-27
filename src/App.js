@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import Icon from "./components/icons";
 
 // This is from toastify npm code
