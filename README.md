@@ -7,8 +7,9 @@
 
 Technology Used
 
+### `ReactJs` 
 ### `Bootstrap` 
-### `React-toastify  ` 
+### `React-toastify` 
 ### `reactstrap` 
 
 # Check the live website [here](https://tictactoe-reactjs-js.netlify.app/ "Tic-Tac-Toe")
