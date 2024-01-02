@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Icon from "./components/icons";
+import Icon from "./components/icon";
 
 // This is from toastify npm code
 import { ToastContainer, toast } from "react-toastify";
